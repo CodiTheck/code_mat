@@ -15,7 +15,7 @@ permettra de maîtriser l'agorithmique de façon basique.
 
 
 ### 01.001. Code mistère 001
-**code c** :
+**[code c]**
 ```c
 # include <stdlib.h>
 # include <stdio.h>
@@ -41,7 +41,7 @@ Imprime sur ta feuille vierge, le résultat qui sera exactement affiché
 à l'écran lorsqu'on exécutera le code source ci-dessus.
 
 ### 01.002 Code mistère 002
-**code c** :
+**[code c]**
 ```c
 # include <stdlib.h>
 # include <stdio.h>
