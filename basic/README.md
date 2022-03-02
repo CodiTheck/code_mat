@@ -15,7 +15,7 @@ permettra de maîtriser l'agorithmique de façon basique.
 
 
 ### 01.001. Code mistère 001
-**[code c]**
+`code c`
 ```c
 # include <stdlib.h>
 # include <stdio.h>
@@ -41,7 +41,7 @@ Imprime sur ta feuille vierge, le résultat qui sera exactement affiché
 à l'écran lorsqu'on exécutera le code source ci-dessus.
 
 ### 01.002 Code mistère 002
-**[code c]**
+`code c`
 ```c
 # include <stdlib.h>
 # include <stdio.h>
@@ -62,6 +62,33 @@ int main() {
 Imprime sur ta feuille vierge, le résultat qui sera exactement affiché
 à l'écran lorsqu'on exécutera le code source ci-dessus.
 
+### 01.003 Code mistère 003
+`code c`
+```c
+# include <stdlib.h>
+# include <stdio.h>
+
+void exg(int a, int b) {
+    int c = a;
+    a = b;
+    b = c;
+
+}
+
+int main() {
+    int a = 10;
+    int b = 20;
+
+    exg(a, b);
+    printf("a = %d, b = %d", a, b);
+    return EXIT_SUCCESS;
+
+}
+
+```
+1. Imprime sur ta feuille vierge, le résultat qui sera exactement affiché
+à l'écran lorsqu'on exécutera le code source ci-dessus.
+2. Explique moi ce qui s'est passé.
 
 <br/>
 <br/>
