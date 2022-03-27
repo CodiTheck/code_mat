@@ -170,11 +170,15 @@ Ici, tu vas pouvoir t'exprimer à travers tes propres lignes de codes.
 Écris un programme qui permet de résoudre une équation de degré 1. Je te rappel qu'une équation du premier degré est sous la forme suivante :
     $$ ax + b = 0 $$
 
+![equation](https://latex.codecogs.com/svg.image?ax&space;&plus;&space;b&space;=&space;0)
+
 Avec $a$ et $b$ deux nombres réels qui représentent les coéfficients
 de l'équation. <br/>
 La résolution d'une telle équation, revient tout simplement à calculer $x$
 avec la formule suivante :
     $$ x = \frac{-b}{a} $$
+
+![equation](https://latex.codecogs.com/svg.image?&space;x&space;=&space;\frac{-b}{a})
 
 $x$ est donc la solution de l'équation.
 
@@ -237,7 +241,10 @@ With 1st choice, you have : 12! = 479001600
 Écris un programme qui permet de calculer le nombre de combinaison de $p$ éléments qu'on peux avoir dans $n$. Pour ce faire, il faut juste écrire
 une fonction dont le prototype est comme suite : `int C(int p, int n);`
 et dont la définition implémente la formule mathématique suivante :
+    
     $$ C_{n}^p = \frac{n!}{p! \times (n - p)!}$$
+
+![equation](https://latex.codecogs.com/svg.image?&space;C_{n}^p&space;=&space;\frac{n!}{p!&space;\times&space;(n&space;-&space;p)!})
 
 Avec $n$ et $p$ deux entiers naturels.<br/>
 Écris ensuite le code de la fonction `main` qui utilisera la fonction `C`
