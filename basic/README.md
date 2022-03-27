@@ -168,10 +168,8 @@ Ici, tu vas pouvoir t'exprimer à travers tes propres lignes de codes.
 
 ### `01.02.002` Équation du premier degré
 Écris un programme qui permet de résoudre une équation de degré 1. Je te rappel qu'une équation du premier degré est sous la forme suivante :
-    
-    <!-- $$ ax + b = 0 $$ -->
 
-<div style="text-align:center">
+<div style="text-align:center; background-color: #fff;">
 
 ![Formule de la solution](./images/01.02.002.2.png)
 
@@ -181,10 +179,8 @@ Avec $a$ et $b$ deux nombres réels qui représentent les coéfficients
 de l'équation. <br/>
 La résolution d'une telle équation, revient tout simplement à calculer $x$
 avec la formule suivante :
-    
-    <!-- $$ x = \frac{-b}{a} $$ -->
 
-<div style="text-align:center">
+<div style="text-align:center; background-color: #fff;">
 
 ![Formule de la solution](./images/01.02.002.1.png)
 
@@ -251,10 +247,8 @@ With 1st choice, you have : 12! = 479001600
 Écris un programme qui permet de calculer le nombre de combinaison de $p$ éléments qu'on peux avoir dans $n$. Pour ce faire, il faut juste écrire
 une fonction dont le prototype est comme suite : `int C(int p, int n);`
 et dont la définition implémente la formule mathématique suivante :
-    
-    <!-- $$ C_{n}^p = \frac{n!}{p! \times (n - p)!}$$ -->
 
-<div style="text-align:center">
+<div style="text-align:center; background-color: #fff;">
 
 ![](./images/01.02.004.1.png)
 
