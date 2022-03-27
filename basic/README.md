@@ -168,6 +168,7 @@ Ici, tu vas pouvoir t'exprimer à travers tes propres lignes de codes.
 
 ### `01.02.002` Équation du premier degré
 Écris un programme qui permet de résoudre une équation de degré 1. Je te rappel qu'une équation du premier degré est sous la forme suivante :
+    
     $$ ax + b = 0 $$
 
 ![equation](https://latex.codecogs.com/svg.image?ax&space;&plus;&space;b&space;=&space;0)
@@ -176,6 +177,7 @@ Avec $a$ et $b$ deux nombres réels qui représentent les coéfficients
 de l'équation. <br/>
 La résolution d'une telle équation, revient tout simplement à calculer $x$
 avec la formule suivante :
+    
     $$ x = \frac{-b}{a} $$
 
 ![equation](https://latex.codecogs.com/svg.image?&space;x&space;=&space;\frac{-b}{a})
