@@ -233,6 +233,29 @@ With 1st choice, you have : 12! = 479001600
 
 ```
 
+### `01.02.004` Combinaison de $p$ dans $n$
+Écris un programme qui permet de calculer le nombre de combinaison de $p$ éléments qu'on peux avoir dans $n$. Pour ce faire, il faut juste écrire
+une fonction dont le prototype est comme suite : `int C(int p, int n);`
+et dont la définition implémente la formule mathématique suivante :
+    $$ C_{n}^p = \frac{n!}{p! \times (n - p)!}$$
+
+Avec $n$ et $p$ deux entiers naturels.<br/>
+Écris ensuite le code de la fonction `main` qui utilisera la fonction `C`
+tout en respeectant l'exemple d'exécution suivante :
+
+`EXEC`
+```
+Entrez le nombre total d'elements : 
+>_ 12
+
+Entrez le nombre de combinaison :
+>_ 5
+
+On denombre 792 combinaisons possibles de 5 elements dans 12.
+
+```
+Fais en sorte d'afficher le résultat de calcul sous forme d'un nombre
+entier (`792` est un nombre entier par exemble).
 
 <br/>
 <br/>
