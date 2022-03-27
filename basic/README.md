@@ -187,6 +187,52 @@ La solution de cette equation est : -1.333
 Assure toi que ton programme affiche la solution avec `3 chiffres` après
 la virgule (`.`).
 
+### `01.02.003` Factorielle d'un entier
+Écris un programme qui permet de calculer le factorielle d'un nombre 
+entier $n$ de deux façons différentes. Ces deux façons seront définies
+dans deux fonctions respectives `f1` et `f2`. <br>
+1. `f1` utilise une boucle pour calculer le factorielle.
+2. `f2` est une fonction récursive.
+
+Voici un exemple d'exécution pour tester les deux fonctions.<br/>
+si l'utilisateur choisit de faire son calcul avec la seconde fonction :
+
+`EXEC`
+```
+FACTORIAL CALCULATION
+=====================
+1. With a loop
+2. With recursion
+
+Make your choice :
+>_ 2
+
+Enter an integer :
+>_ 8
+
+With 2nd choice, you have : 8! = 40320
+
+```
+
+Ou si l'utilisateur choisit de faire son calcul avec la première fonction :
+
+`EXEC`
+```
+FACTORIAL CALCULATION
+=====================
+1. With a loop
+2. With recursion
+
+Make your choice :
+>_ 1
+
+Enter an integer :
+>_ 12
+
+With 1st choice, you have : 12! = 479001600
+
+```
+
 
 <br/>
 <br/>
