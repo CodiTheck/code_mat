@@ -90,6 +90,63 @@ int main() {
 à l'écran lorsqu'on exécutera le code source ci-dessus.
 2. Explique moi ce qui s'est passé.
 
+### `01.01.004` Code mistère 004
+`code c`
+```c
+# include <stdlib.h>
+# include <stdio.h>
+# define MAX 13
+
+void init(int c, int *mth);
+void print(int input, int c, int *mth);
+
+int main() {
+    int M[MAX];
+    int i;
+
+    init(MAX, M);
+    printf("Please, enter a number between 1 and 12 : ");
+    scanf("%d", &i);
+    
+    print(i, MAX, M);
+    return EXIT_SUCCESS;
+
+}
+
+void init(int c, int *mth) {
+    int k = 0;
+    for (k = 1; k < c; k++) {
+        if (k == 2) mth[k] = 28;
+        else if ((k % 2 == 0 && k <= 7) || (k % 2 == 1 && k > 7))
+            mth[k] = 30;
+        else
+            mth[k] = 31;
+    }
+
+}
+
+void print(int input, int c, int *mth) {
+    if (input == -1)
+        for (int i = 1; i <= c - 1; i ++)
+            printf("[%d] == [%d];\n", i, mth[i]);
+    else
+        printf("FOR %d WE HAVE %d.\n", input, mth[input]);
+
+}
+
+```
+1. Imprime sur ta feuille vierge, le résultat qui sera exactement affiché 
+à l’écran pour chacune des valeurs suivantes entrées par l'utilisateur :
+    - -1
+    - 4
+    - 9
+    - 13
+    - 0
+
+2. Dis moi ce que le programme.
+
+<br/>
+
 ## Programming
 Ici, tu vas pouvoir t'exprimer à travers tes propres lignes de codes. 
 
